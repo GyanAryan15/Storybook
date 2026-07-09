@@ -37,6 +37,9 @@ export const Default: Story = {
 };
 
 export const Sizes: Story = {
+  args: {
+    icon: 'check', 
+  },
   render: () => (
     <div className="flex gap-4 items-center">
       <Icon icon="check" size="xs" label="xs" />
@@ -50,6 +53,9 @@ export const Sizes: Story = {
 };
 
 export const Colors: Story = {
+  args: {
+    icon: 'check', 
+  },
   render: () => (
     <div className="flex gap-4 items-center">
       <Icon icon="check" size="md" color="#8b5cf6" label="Brand Purple" />
@@ -61,6 +67,9 @@ export const Colors: Story = {
 };
 
 export const AllIcons: Story = {
+  args: {
+    icon: 'check', 
+  },
   render: () => (
     <div className="grid grid-cols-6 gap-6">
       {Object.keys(Icons).map((name) => (
