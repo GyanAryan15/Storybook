@@ -2,7 +2,7 @@ import type { Meta, StoryObj } from '@storybook/react';
 import Avatar from './Avatar';
 
 const meta = {
-  title: 'Example/Avatar',
+  title: 'Component/Avatar',
   component: Avatar,
   parameters: {
     layout: 'centered',
@@ -31,7 +31,7 @@ type Story = StoryObj<typeof meta>;
 
 export const WithImage: Story = {
   args: {
-    src: 'https://placekitten.com/200/200',
+    src: 'https://picsum.photos/200/200',
     alt: 'Kitten Avatar',
     size: 'md',
     shape: 'circle',
@@ -41,7 +41,7 @@ export const WithImage: Story = {
 
 export const SquareShape: Story = {
   args: {
-    src: 'https://placekitten.com/250/250',
+    src: 'https://picsum.photos/250/250',
     alt: 'Square Avatar',
     size: 'lg',
     shape: 'square',
