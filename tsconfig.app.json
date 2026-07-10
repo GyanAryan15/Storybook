@@ -22,5 +22,5 @@
     "erasableSyntaxOnly": true,
     "noFallthroughCasesInSwitch": true
   },
-  "include": ["src", "Sidebar"]
+  "include": ["src", "src/stories/Sidebar"]
 }
